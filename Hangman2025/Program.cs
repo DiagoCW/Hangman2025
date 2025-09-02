@@ -7,5 +7,7 @@
         // Adding a comment
 
         // Adding another comment
+
+        // Adding a third comment
     }
 }
