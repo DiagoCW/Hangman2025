@@ -5,7 +5,10 @@ internal class Program
     private static void Main(string[] args)
     {
         Console.WriteLine("Hangman 2025");
+        Console.WriteLine("-------------");
 
+
+        
         // game state init
 
         int nbrLives = 5;
@@ -56,6 +59,8 @@ internal class Program
                 nbrLives--;
             }
 
+            // game end
+
             if (nbrLives <= 0)
             {
                 Console.WriteLine("You lost!");
@@ -71,10 +76,10 @@ internal class Program
 
 
 
-            //break;
+            
         }
 
-        // game end
+        
 
         
     }
